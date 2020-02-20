@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':megtrixphonedetect'
 rootProject.name='Megtrix Detect'
