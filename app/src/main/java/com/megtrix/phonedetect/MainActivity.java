@@ -17,12 +17,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView = (TextView) findViewById(R.id.phoneTv);
 
+
+        //creating an instance of the library
         MegtrixDetect detect = new MegtrixDetect();
         detect.initiateSettings(this);
 
-
+        //
         String insert = detect.getUserPhone();
-
         textView.setText(insert);
 
 
