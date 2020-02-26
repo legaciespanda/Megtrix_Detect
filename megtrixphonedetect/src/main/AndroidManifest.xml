@@ -2,8 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.megtrix.phonedetector">
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
     <application>
-        <activity android:name=".MegtrixDetect"></activity>
+        <activity android:name=".MegtrixDetect" />
     </application>
 
 </manifest>
